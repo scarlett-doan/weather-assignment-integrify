@@ -35,8 +35,8 @@ class App extends Component {
 
     setWeather = () => {
         const city = this.state.searchBarInput;
-        const LOCATION_URL = 'http://dataservice.accuweather.com/locations/v1/cities/search';
-        const WEATHER_URL = 'http://dataservice.accuweather.com/currentconditions/v1/';
+        const LOCATION_URL = 'https://dataservice.accuweather.com/locations/v1/cities/search';
+        const WEATHER_URL = 'https://dataservice.accuweather.com/currentconditions/v1/';
         const URL = LOCATION_URL + `?q=${city}&apikey=${API_KEY}`;
         this.setState({
             loading: true, error: false
