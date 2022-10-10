@@ -1,7 +1,12 @@
 # weather-assignment-integrify
 assignment
 
+Limit around 25 searches/day as I am using free account of Accuweather
 
-App Preview:
+Web app:
+![](Begin.png)
 
-[![Preview](/images/preview.png)]
+
+Search for city:
+
+![](Preview.png)
